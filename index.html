@@ -1,0 +1,286 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogão do Canela Fina - Cardápio Digital</title>
+    <meta name="description" content="Dogão do Canela Fina - O melhor cachorro-quente da cidade! Delivery rápido e saboroso.">
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script type="module">
+        import config from './config.js';
+        window.config = config;
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <div class="logo-icon">
+                    <img src="logo.png" alt="Canela Fina Hotdog Logo" class="hotdog-logo">
+                </div>
+                <h1>Dogão do Canela Fina</h1>
+            </div>
+            <p class="slogan">O melhor sabor na cidade!</p>
+            <button id="admin-login-btn" class="admin-button"><i class="fas fa-lock"></i></button>
+        </header>
+        
+        <nav>
+            <button class="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
+            <ul>
+                <li><a href="#lanches" class="active">Lanches</a></li>
+                <li><a href="#acompanhamentos">Acompanhamentos</a></li>
+                <li><a href="#bebidas">Bebidas</a></li>
+                <li><a href="#combos">Combos</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="lanches" class="menu-section">
+                <h2><i class="fas fa-hotdog"></i> Lanches</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1612392061787-2d078b3e573c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Dogão Tradicional</h3>
+                            <p class="description">Pão macio, salsicha suculenta, molho especial e acompanhamentos frescos!</p>
+                            <div class="price">
+                                <span class="old-price">R$ 16,90</span>
+                                <span class="new-price">R$ 11,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1619740455993-9d709724d322?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Dogão de Carne</h3>
+                            <p class="description">Pão especial, carne moída preparada na hora, queijo e molho exclusivo.</p>
+                            <div class="price">
+                                <span class="old-price">R$ 21,90</span>
+                                <span class="new-price">R$ 16,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1619740455993-9d709724d322?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Dogão de Frango</h3>
+                            <p class="description">Pão macio, frango desfiado temperado, catupiry e molho especial.</p>
+                            <div class="price">
+                                <span class="old-price">R$ 21,90</span>
+                                <span class="new-price">R$ 16,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1612392061787-2d078b3e573c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Doguinho</h3>
+                            <p class="description">Versão menor do nosso tradicional, perfeito para crianças!</p>
+                            <div class="price">
+                                <span class="old-price">R$ 10,90</span>
+                                <span class="new-price">R$ 5,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1619740455993-9d709724d322?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Doguinho de Carne</h3>
+                            <p class="description">Versão menor do nosso dogão de carne, sabor inconfundível!</p>
+                            <div class="price">
+                                <span class="old-price">R$ 12,90</span>
+                                <span class="new-price">R$ 9,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1619740455993-9d709724d322?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Doguinho de Frango</h3>
+                            <p class="description">Versão menor do nosso dogão de frango, deliciosamente cremoso!</p>
+                            <div class="price">
+                                <span class="old-price">R$ 12,90</span>
+                                <span class="new-price">R$ 9,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="acompanhamentos" class="menu-section">
+                <h2><i class="fas fa-french-fries"></i> Acompanhamentos</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1612392061787-2d078b3e573c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Batata Chips</h3>
+                            <p class="description">Crocantes e douradas, temperadas com sal e ervas finas.</p>
+                            <div class="price">
+                                <span class="old-price">R$ 12,90</span>
+                                <span class="new-price">R$ 9,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1619740455993-9d709724d322?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Batata Palito</h3>
+                            <p class="description">Fritas na hora, crocantes por fora e macias por dentro!</p>
+                            <div class="price">
+                                <span class="old-price">R$ 12,90</span>
+                                <span class="new-price">R$ 9,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="bebidas" class="menu-section">
+                <h2><i class="fas fa-glass-whiskey"></i> Bebidas</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1612392061787-2d078b3e573c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Coca Cola Lata</h3>
+                            <p class="description">350ml, gelada e refrescante!</p>
+                            <div class="price">
+                                <span class="new-price">R$ 5,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1619740455993-9d709724d322?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Guaraná Lata</h3>
+                            <p class="description">350ml, gelado e refrescante!</p>
+                            <div class="price">
+                                <span class="new-price">R$ 5,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1619740455993-9d709724d322?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Pepsi Lata</h3>
+                            <p class="description">350ml, gelada e refrescante!</p>
+                            <div class="price">
+                                <span class="new-price">R$ 5,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1612392061787-2d078b3e573c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">PROMOÇÃO</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Água com Gás</h3>
+                            <p class="description">500ml, refrescante e levemente gaseificada.</p>
+                            <div class="price">
+                                <span class="new-price">R$ 3,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="combos" class="menu-section">
+                <h2><i class="fas fa-hamburger"></i> Combos</h2>
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">MELHOR OFERTA</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Combo Família</h3>
+                            <p class="description">4 Dogões tradicionais + 2 porções de batata + 4 refrigerantes</p>
+                            <div class="price">
+                                <span class="old-price">R$ 89,90</span>
+                                <span class="new-price">R$ 69,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-image" style="background-image: url('https://images.unsplash.com/photo-1619881590738-a111d176d906?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300&q=80')">
+                            <div class="item-badge">POPULAR</div>
+                        </div>
+                        <div class="item-info">
+                            <h3>Combo Individual</h3>
+                            <p class="description">1 Dogão tradicional + 1 porção de batata + 1 refrigerante</p>
+                            <div class="price">
+                                <span class="old-price">R$ 25,90</span>
+                                <span class="new-price">R$ 19,90</span>
+                            </div>
+                            <button class="add-to-cart">Adicionar <i class="fas fa-cart-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2023 Dogão do Canela Fina. Todos os direitos reservados.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="cart-button">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
